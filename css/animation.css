@@ -1,0 +1,72 @@
+
+.slide-up {
+    animation: slideUp ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slideUp {
+  0%,
+  30% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+
+  40%,
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+
+  }
+}
+
+
+
+
+
+.slide-right {
+  animation: slideRight ease 4s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes slideRight {
+  0%,
+  30% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+
+  40%,
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+
+  }
+}
+
+
+
+
+
+
+.slide-left {
+  animation: slideLeft ease 4s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes slideLeft {
+    0%,
+  30% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+
+  40%,
+  100%{
+    transform: translateX(0);
+    opacity: 1;
+
+  }
+}
