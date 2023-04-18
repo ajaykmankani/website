@@ -10,8 +10,8 @@
             </div>
         </div>
         <div class="row mt-4">
-            <div class="col-md-4">
-                <div class="plan-div">
+            <div class="col-md-4" id="plan5-1">
+                <div class="plan-div" >
                 <img class="rounded" src="images/p1.jpg" alt="p1">
                 <h4 class="text-white mt-4">STREAMING TV</h4>
                 <strong class="fs-4">$69.99/mo. + taxes</strong>
@@ -26,8 +26,8 @@
 
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="plan-div">
+            <div class="col-md-4" id="plan5-2">
+                <div class="plan-div" >
                 <img class="rounded" src="images/p2.jpg" alt="p2">
                 <h4 class="text-white mt-4">SATELLITE TV</h4>
                     <strong class="fs-4">$64.99/mo. + taxes</strong>
@@ -42,8 +42,8 @@
 
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="plan-div">
+            <div class="col-md-4" id="plan5-3">
+                <div class="plan-div" >
                 <img class="rounded" src="images/p3.jpg" alt="p3">
                 <h4 class="text-white mt-4">FIBER INTERNET</h4>
                 <strong class="fs-4">$55/mo. + taxes</strong>

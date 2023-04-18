@@ -21,7 +21,7 @@
             </div>
         </div>
 
-        <div class="row mt-5 bg-dark p-4 " id="fadeup2">
+        <div class="row mt-5 bg-dark p-4" id="fadeup2">
 
             <div class="col-md-6">
                 <div class="planheading ">
