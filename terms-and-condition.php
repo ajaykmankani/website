@@ -1,5 +1,7 @@
-<?php include('web1/includes/header.php') ?>
+<?php include('global-variables.php') ?>
 
-<?php include('web1/terms/content.php') ?>
 
-<?php include('web1/includes/footer.php') ?>
+
+<?php foreach($terms_structure as $structure){?>
+<?php include($website.'/'.$structure.'.php') ?>
+<?php } ?>

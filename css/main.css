@@ -2,8 +2,8 @@
 --font-family: 'Poppins', sans-serif;
 --white: #ffffff;
 --yellow: #feef3e;
---light-blue: #50c6dd;
---bg-blue-dark: #041b35;
+--light-blue:#50c6dd;
+--bg-dark-b: #041b35;
 }
 
 /*---------------*/
@@ -200,7 +200,7 @@ a.navbar-brand img {
   object-fit: cover;
 }
 nav {
-  background: #041b35;
+  background: var(--bg-dark-b);
 }
 a.nav-link:hover {
   color: var(--yellow)  !important;
@@ -235,8 +235,17 @@ footer.footer {
 
 }
 .list {
-  display: contents;
+      display: initial;
+ 
   list-style: none;
+  font-size: 18px;
+  color: #7e7e7e;
+
+  letter-spacing: 0.4px;
+}
+ul.list2 {
+  list-style: none;
+
   font-size: 18px;
   color: #7e7e7e;
 
@@ -365,8 +374,12 @@ ul.list li i:before {
   margin: 5px 8px 0px 10px;
   color: var(--light-blue);
 }
+ul.list2 li i:before {
+  margin: 5px 8px 0px 10px;
+  color: var(--light-blue);
+}
 a.bar-btn1 {
-  background: #50c6dd;
+  background: var(--light-blue);
   padding: 8px 30px;
 }
 a.bar-btn2 {

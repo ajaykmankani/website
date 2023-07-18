@@ -1,4 +1,7 @@
-<?php include('web1/includes/header.php') ?>
+<?php include('global-variables.php') ?>
 
-<?php include('web1/contact/content.php') ?>
-<?php include('web1/includes/footer.php') ?>
+
+
+<?php foreach($contact_structure as $structure){?>
+<?php include($website.'/'.$structure.'.php') ?>
+<?php } ?>

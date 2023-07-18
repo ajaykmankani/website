@@ -17,7 +17,7 @@
     <meta name="twitter:description" content="">
     <meta name="twitter:image" content="images/logo.webp">
 
-    <title> Internet and Tv </title>
+    <title> <?=$sitename?> </title>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/animation.css">
     <link rel="stylesheet" href="css/bootstrap.css">
@@ -29,7 +29,7 @@
 
 
 </head>
-<?php include('web1/variables/site_setting.php'); ?>
+<?php include($website.'/variables/site_setting.php'); ?>
 <body>
     <main>
 
